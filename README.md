@@ -18,3 +18,8 @@ I have to say that in most day-to-day tasks, I prefer using the first two method
 
 To make sure there aren't some handy-dandy techniques that I've missed, I've decided to go through **Soledad Ghali** course on Imbalanced data.
 
+## Datasets
+
+Here is the list of the datasets used in this repo:
+
+- kdd2004.csv: This file's data comes bundled with imbalance-learn package. The original version was pre-processed before being saved to the csv file.
