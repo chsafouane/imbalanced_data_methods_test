@@ -18,6 +18,10 @@ I have to say that in most day-to-day tasks, I prefer using the first two method
 
 To make sure there aren't some handy-dandy techniques that I've missed, I've decided to go through **Soledad Ghali** course on Imbalanced data.
 
+## Readings
+
+- **Machine Learning from Imbalanced Data Sets 101**: This short paper tries to give a definition for the problem of imbalanced datasets when it comes to ML models. To do so, the author asks a number of questions and discusses in a very high-level the methods used today. The paper dates back to the year 2000. Yet, the discussion and the arguments remain valid.
+
 ## Datasets
 
 Here is the list of the datasets used in this repo:
