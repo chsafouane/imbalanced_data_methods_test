@@ -20,7 +20,7 @@ To make sure there aren't some handy-dandy techniques that I've missed, I've dec
 
 ## Readings
 
-- **[Machine Learning from Imbalanced Data Sets 101](./Readings/Machine Learning from Imbalanced Data Sets 101.md)**: This short paper tries to give a definition for the problem of imbalanced datasets when it comes to ML models. To do so, the author asks a number of questions and discusses in a very high-level the methods used today. The paper dates back to the year 2000. Yet, the discussion and the arguments remain valid.
+- **[Machine Learning from Imbalanced Data Sets 101](./Readings/Machine%20Learning%20from%20Imbalanced%20Data%20Sets%20101.md)**: This short paper tries to give a definition for the problem of imbalanced datasets when it comes to ML models. To do so, the author asks a number of questions and discusses in a very high-level the methods used today. The paper dates back to the year 2000. Yet, the discussion and the arguments remain valid.
 
 ## Datasets
 
