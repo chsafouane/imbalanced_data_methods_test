@@ -14,7 +14,7 @@ Three **approaches** are usually used to tackle imbalanced data: Data approaches
 
 ## Undersampling
 
-The **Balancing ratio** is the ratio of the minority class to the majority class. Ra
+The **Balancing ratio** is the ratio of the minority class to the majority class. 
 
 There are two families of methods:
 
