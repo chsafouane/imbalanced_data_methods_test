@@ -26,4 +26,4 @@ To make sure there aren't some handy-dandy techniques that I've missed, I've dec
 
 Here is the list of the datasets used in this repo:
 
-- kdd2004.csv: This file's data comes bundled with imbalance-learn package. The original version was pre-processed before being saved to the csv file.
+- **kdd2004.csv**: This file's data comes bundled with imbalance-learn package. The original version was pre-processed before being saved to the csv file.
