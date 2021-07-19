@@ -14,7 +14,7 @@ Three **approaches** are usually used to tackle imbalanced data: Data approaches
 
 ## Undersampling
 
-The **Balancing ratio** is the ratio of the minority class to the majority class. 
+The **Balancing ratio** is the ratio of the minority class to the majority class. 	
 
 There are two families of methods:
 
@@ -29,4 +29,10 @@ This is a naïve technique that undersamples the majority class till reaching th
 - The # of samples in a minority class might be very limited and reaching a certain balancing ratio would eliminate so much information about the majority class
 
 ![image-20210719173921526](_assets/Notes/image-20210719173921526.png)
+
+### Condensed Nearest Neighbours
+
+This is a cleaning method that extracts observations from the majority class(es) at the boundary between 2 or more classes. The final dataset shape varies and boundary(ies) matters.
+
+To understand this method, please refer to this video: https://youtu.be/H7f_J4HjlWE. The difference with the video is that the starting set of points S consists of the points in the minority class + 1 point from the majority class. The final version of S is the undersampled dataset.
 
