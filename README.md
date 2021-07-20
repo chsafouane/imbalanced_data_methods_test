@@ -16,7 +16,7 @@ Over the years, my go-to techniques when dealing with imbalanced classes have be
 
 I have to say that in most day-to-day tasks, I prefer using the first two methods as they are easy to implement and not energy-consuming^_^
 
-To make sure there aren't some handy-dandy techniques that I've missed, I've decided to go through **Soledad Ghali** course on Imbalanced data.
+To make sure there aren't some handy-dandy techniques that I've missed, I've decided to go through **Soledad Galli** course on Imbalanced data.
 
 ## Readings
 
