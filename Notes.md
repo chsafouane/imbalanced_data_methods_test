@@ -38,5 +38,5 @@ To understand this method, please refer to this video: https://youtu.be/H7f_J4Hj
 
 ### Tomek links
 
-2 samples are Tomek Links if they are nearest neighbours and are from a different class. This undersampling method removes Tomek links from the majority class - this behavior can be tweaked to remove tomek links even from the minority class-, and so the final dataset distribution will change. The assumption of this technique is that boundary points are noise.
+2 samples have a Tomek Link if they are nearest neighbours and are from a different class. This undersampling method removes Tomek links by removing the datapoint from the majority class - this behavior can be tweaked to remove the corresponding point the minority class as well-. The final dataset distribution will change. The assumption of this technique is that boundary points are noise.
 
