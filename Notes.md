@@ -36,3 +36,7 @@ This is a cleaning method that extracts observations from the majority class(es)
 
 To understand this method, please refer to this video: https://youtu.be/H7f_J4HjlWE. The difference with the video is that the starting set of points S consists of the points in the minority class + 1 point from the majority class. The final version of S is the undersampled dataset.
 
+### Tomek links
+
+2 samples are Tomek Links if they are nearest neighbours and are from a different class. This undersampling method removes Tomek links from the majority class - this behavior can be tweaked to remove tomek links even from the minority class-, and so the final dataset distribution will change. The assumption of this technique is that boundary points are noise.
+
