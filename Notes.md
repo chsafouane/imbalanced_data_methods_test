@@ -53,3 +53,7 @@ This method uses KNN and if the nearest points have the same label as the class 
 ### Repeated Edited Nearest Neighbours
 
 Repeat the Edited Nearest Neighbours until no more observations are removed or until a maximum # of cycles is reached. The same number of nearest neighbours is used in each pass over the data.
+
+### All KNN
+
+This algorithm works in the same way as Repeated Edited Nearest Neighbours but adds 1 neighbour to KNN at each pass. This algorithm is more stringent than RENN.
