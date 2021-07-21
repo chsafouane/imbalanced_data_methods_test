@@ -50,5 +50,6 @@ CNN selects samples of the majority class that are similar to those of the minor
 
 This method uses KNN and if the nearest points have the same label as the class of the observation considered, it is removed from the dataset. This method removes samples that are close to the decision boundary (Those that are too similar to observations of the minority class - opposite of CNN).
 
+### Repeated Edited Nearest Neighbours
 
-
+Repeat the Edited Nearest Neighbours until no more observations are removed or until a maximum # of cycles is reached. The same number of nearest neighbours is used in each pass over the data.
