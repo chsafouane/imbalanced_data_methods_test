@@ -45,3 +45,8 @@ To understand this method, please refer to this video: https://youtu.be/H7f_J4Hj
 This is considered an improvement on both CNN and Tomek's link. It's a two-step method. First, apply CNN and then apply Tomek's link. 
 
 CNN selects samples of the majority class that are similar to those of the minority class. Thus, it is prone to introduce some noise. With Tomek links, this procedure aims to remove this "noise".
+
+### Edited Nearest Neighbours
+
+This method uses KNN and if the nearest points have the same label as the class of the observation considered, it is removed from the dataset. This method removes samples that are close to the decision boundary.
+
