@@ -88,3 +88,7 @@ Train a classifier and remove the points that are very hard to classify in the m
 
 For a more thorough explanation, please read [this blog](https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581)
 
+## Oversampling
+
+![image-20210722220020700](_assets/Notes/image-20210722220020700.png)
+
