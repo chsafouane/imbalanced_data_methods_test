@@ -1,5 +1,18 @@
 # A tour of imbalanced data methods
 
+
+
+## Table of content
+
+- [Some history](#some-history)
+- [Notes](#notes)
+- [Readings](#readings)
+  * [Papers](#papers)
+  * [Blogs](#blogs)
+- [Datasets](#datasets)
+
+
+
 ## Some history
 
 Over the years, my go-to techniques when dealing with imbalanced classes have been:
