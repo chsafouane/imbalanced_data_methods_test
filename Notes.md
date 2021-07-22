@@ -87,3 +87,4 @@ Here are some alternative definition from [machinelearningmastery](https://machi
 Train a classifier and remove the points that are very hard to classify in the majority class. A probability threshold is defined to say when the instance is considered as hard to classify.
 
 For a more thorough explanation, please read [this blog](https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581)
+

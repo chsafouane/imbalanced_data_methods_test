@@ -28,7 +28,15 @@ You can find my notes here: [**Notes**](./Notes.md)
 
 ## Readings
 
+### Papers
+
 - **[Machine Learning from Imbalanced Data Sets 101](./Readings/Machine%20Learning%20from%20Imbalanced%20Data%20Sets%20101.md)**: This short paper tries to give a definition for the problem of imbalanced datasets when it comes to ML models. To do so, the author asks a number of questions and discusses in a very high-level the methods used today. The paper dates back to the year 2000. Yet, the discussion and the arguments remain valid.
+
+### Blogs
+
+As I've read many blog posts, I've decided to list only the one that I did really like
+
+- [**Instance Hardness Threshold**](https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581)
 
 ## Datasets
 
