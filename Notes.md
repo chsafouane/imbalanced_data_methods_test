@@ -68,10 +68,10 @@ First apply *Edited Nearest Neighbours* to remove points from the majority class
 
 This method is a fixed method. The final size of the dataset is 2 * size of minority class. There are 3 versions of it.
 
-- *NearMiss 1*: Retain points in the majority class that are the closest to their neighbours
+- *NearMiss 1*: Retains points in the majority class that are the closest to their neighbours. Usually, it retains points that are far away from the main cluster of the majority class
   - Select the 3 nearest neighbours for each point in the majority class from the minority class
   - Select the points from the majority class with the smallest average distance to the minority neighbours.
-- *NearMiss 2*: Retain points in the majority class that are the closest to the farthest points from the minority class
+- *NearMiss 2*: Retain points in the majority class that are the closest to the farthest points from the minority class. Usually, it keeps points from the majority class that are in the middle with respect to the points of the minority class
   - For each point of the majority class, select the 3 furthest points in the minority class
   - Select the points from the majority class that have the smallest average distance to the corresponding points in the minority class
 - *NearMiss 3*: This method removes points from majority class that are very far from the main cluster of points and very close to the decision boundary
@@ -82,3 +82,8 @@ Here are some alternative definition from [machinelearningmastery](https://machi
 
 ![image-20210722173531843](_assets/Notes/image-20210722173531843.png)
 
+### Instance Hardness Threshold
+
+Train a classifier and remove the points that are very hard to classify in the majority class. A probability threshold is defined to say when the instance is considered as hard to classify.
+
+For a more thorough explanation, please read [this blog](https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581)
