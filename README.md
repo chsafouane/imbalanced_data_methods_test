@@ -18,6 +18,14 @@ I have to say that in most day-to-day tasks, I prefer using the first two method
 
 To make sure there aren't some handy-dandy techniques that I've missed, I've decided to go through **Soledad Galli** course on Imbalanced data.
 
+## Notes
+
+I've been writing down notes while taking Soledad Galli course. The course is easy and the concepts are explained in a good way.
+
+The notes are not a real summary of the course, if you don't know the concepts discussed in the course, you'll have a hard time understanding the different methods by simply going through the notes.
+
+You can find my notes here: [**Notes**](./Notes.md)
+
 ## Readings
 
 - **[Machine Learning from Imbalanced Data Sets 101](./Readings/Machine%20Learning%20from%20Imbalanced%20Data%20Sets%20101.md)**: This short paper tries to give a definition for the problem of imbalanced datasets when it comes to ML models. To do so, the author asks a number of questions and discusses in a very high-level the methods used today. The paper dates back to the year 2000. Yet, the discussion and the arguments remain valid.
