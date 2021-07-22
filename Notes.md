@@ -64,3 +64,21 @@ First apply *Edited Nearest Neighbours* to remove points from the majority class
 
 ![image-20210722134746398](_assets/Notes/image-20210722134746398.png)
 
+### NearMiss
+
+This method is a fixed method. There are 3 versions of it.
+
+- *NearMiss 1*: 
+  - Select the 3 nearest neighbours for each point in the majority class from the minority class
+  - Select the points from the majority class with the smallest average distance to the minority neighbours.
+- *NearMiss 2*:
+  - For each point of the majority class, select the 3 furthest points in the minority class
+  - Select the points from the majority class that have the smallest average distance to the corresponding points in the minority class
+- *NearMiss 3*: This method removes points from majority class that are very far from the main cluster of points and very close to the decision boundary
+  - For each point in the minority class, select the 3 neighbours from the majority class. We then remove all points that are far away from the majority class
+  - For each point in the majority class, select the 3 closest neighbours from the minority class, calculate the average distance and select only those whose average distance is the largest.
+
+Here are some alternative definition from [machinelearningmastery](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/):
+
+![image-20210722173531843](_assets/Notes/image-20210722173531843.png)
+
