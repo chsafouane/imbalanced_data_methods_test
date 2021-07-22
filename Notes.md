@@ -57,3 +57,10 @@ Repeat the Edited Nearest Neighbours until no more observations are removed or u
 ### All KNN
 
 This algorithm works in the same way as Repeated Edited Nearest Neighbours but adds 1 neighbour to KNN at each pass. This algorithm is more stringent than RENN.
+
+### Neighborhood cleaning rule
+
+First apply *Edited Nearest Neighbours* to remove points from the majority class. Then look at the neighbours of the minority class and if any of the neighbours can cause a misclassification, remove it. In the second step, one could set a threshold that represents (from imbalanced-learn doc):
+
+![image-20210722134746398](_assets/Notes/image-20210722134746398.png)
+
