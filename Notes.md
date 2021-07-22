@@ -66,7 +66,7 @@ First apply *Edited Nearest Neighbours* to remove points from the majority class
 
 ### NearMiss
 
-This method is a fixed method. There are 3 versions of it.
+This method is a fixed method. The final size of the dataset is 2 * size of minority class. There are 3 versions of it. The 3 versions give fairly similar results.
 
 - *NearMiss 1*: 
   - Select the 3 nearest neighbours for each point in the majority class from the minority class
