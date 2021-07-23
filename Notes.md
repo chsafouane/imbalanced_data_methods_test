@@ -165,3 +165,19 @@ It creates synthetic examples using only observations from the minority class cl
 
 ![image-20210723194033767](_assets/Notes/image-20210723194033767.png)
 
+### Kmeans SMOTE
+
+This method is particularly useful if we have more than 1 cluster in the minority class (within-class problem)
+
+![image-20210723200514285](_assets/Notes/image-20210723200514285.png)
+
+One needs to select a threshold for the % of presence of the minority class in the cluster. We select the clusters whose % of the minority class is  > than the threshold.
+
+To generate the samples, we need to weight the clusters
+
+![image-20210723201355344](_assets/Notes/image-20210723201355344.png)
+
+The sparser the cluster is, the more samples we generate in the cluster
+
+![image-20210723201555481](_assets/Notes/image-20210723201555481.png)
+
