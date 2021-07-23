@@ -108,3 +108,35 @@ SMOTE Nominal Continuous extends the SMOTE to categorical variables. From all th
 - What categorical value will the simulated sample take: the majority categorical value of the neighbours of the original point
 
 ![image-20210723065111697](_assets/Notes/image-20210723065111697.png)
+
+### ADASYN
+
+This method uses a weighted distribution of the minority class and generates more synthetic data from samples that are harder to learn.
+
+ADASYN uses all classes data points to train KNN. The interpolation is done between a sample of the minority class and a neighbour from the minority or the majority class.
+
+The following are the steps of ADASYN:
+
+- Determining the **balancing ratio**: *R = #minority / #majority*
+
+- Determining the # of **samples that need to be generated**: *G = (#majority - #minority) \* some_ factor*
+
+  *factor* is determined by the balancing ratio
+
+- **Train a KNN** using the entire dataset and **determine the weight** for each sample from the minority class
+
+  ![image-20210723131248815](_assets/Notes/image-20210723131248815.png)
+
+- **Normalize r** for each observation of the minority class
+
+  ![image-20210723131521048](_assets/Notes/image-20210723131521048.png)
+
+- Calculate the **# of observations to generate** for **each** observation in the minority class
+
+![image-20210723133302068](_assets/Notes/image-20210723133302068.png)
+
+If an observation of the minority class doesn't have any point from the majority class as its neighbour, its weight *r* is going to be null and it's not going to be used in the data generating process.
+
+- For each *xi* from the minority class, generate *gi* number of samples
+
+  ![image-20210723133924783](_assets/Notes/image-20210723133924783.png)
