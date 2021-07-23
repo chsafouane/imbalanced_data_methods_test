@@ -140,3 +140,23 @@ If an observation of the minority class doesn't have any point from the majority
 - For each *xi* from the minority class, generate *gi* number of samples
 
   ![image-20210723133924783](_assets/Notes/image-20210723133924783.png)
+
+### Borderline SMOTE
+
+This variant of SMOTE creates synthetic examples only from observations of the minority class that are closer to the boundary with the majority class. This method has two versions to it
+
+![image-20210723134645021](_assets/Notes/image-20210723134645021.png)
+
+The selected observations are called the danger group.
+
+As of this step there two ways to go about it:
+
+- **Variant 1**
+
+![image-20210723135110874](_assets/Notes/image-20210723135110874.png)
+
+- **Variant 2**
+
+![image-20210723190922017](_assets/Notes/image-20210723190922017.png)
+
+​	
