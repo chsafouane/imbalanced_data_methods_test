@@ -95,3 +95,8 @@ For a more thorough explanation, please read [this blog](https://towardsdatascie
 ### Random Oversampling
 
 Duplicate observations at random from the minority class until a certain balancing ratio is reached. This increases the likelihood of overfitting.
+
+### SMOTE
+
+![image-20210723062454224](_assets/Notes/image-20210723062454224.png)
+
