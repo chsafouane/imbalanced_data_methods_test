@@ -181,3 +181,13 @@ The sparser the cluster is, the more samples we generate in the cluster
 
 ![image-20210723201555481](_assets/Notes/image-20210723201555481.png)
 
+## Over and Under sampling
+
+![image-20210724002039770](_assets/Notes/image-20210724002039770.png)
+
+The best combo is the second row:
+
+![image-20210724002713320](_assets/Notes/image-20210724002713320.png)
+
+
+
