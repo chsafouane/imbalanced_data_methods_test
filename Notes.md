@@ -159,4 +159,9 @@ As of this step there two ways to go about it:
 
 ![image-20210723190922017](_assets/Notes/image-20210723190922017.png)
 
-​	
+### SVM SMOTE
+
+It creates synthetic examples using only observations from the minority class closer to the boundary with the majority class. The boundary is given by the  support vector of SVM.
+
+![image-20210723194033767](_assets/Notes/image-20210723194033767.png)
+
