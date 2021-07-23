@@ -100,3 +100,11 @@ Duplicate observations at random from the minority class until a certain balanci
 
 ![image-20210723062454224](_assets/Notes/image-20210723062454224.png)
 
+### SMOTE-NC
+
+SMOTE Nominal Continuous extends the SMOTE to categorical variables. From all the algos listed in the oversampling part, only SMOTE-NC and Random Oversampling work with categorical data. The two sources of difficulty are 
+
+- Measuring the distance when having categorical features: the idea is to quantify the difference in categorical variables in a way that it would in the same order of magnitude as the change in numerical variables.
+- What categorical value will the simulated sample take: the majority categorical value of the neighbours of the original point
+
+![image-20210723065111697](_assets/Notes/image-20210723065111697.png)
