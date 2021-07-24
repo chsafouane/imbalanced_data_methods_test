@@ -189,5 +189,15 @@ The best combo is the second row:
 
 ![image-20210724002713320](_assets/Notes/image-20210724002713320.png)
 
+## Ensemble methods
 
+### Overview
+
+The way most ensemble methods are conceived, they focus on improving the accuracy. That's why they are not used alone to tackle imbalanced data problem.
+
+![image-20210724103611293](_assets/Notes/image-20210724103611293.png)
+
+There are many ways to go about it in the literature
+
+![image-20210724125753626](_assets/Notes/image-20210724125753626.png)
 
