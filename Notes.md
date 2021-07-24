@@ -193,11 +193,23 @@ The best combo is the second row:
 
 ### Overview
 
-The way most ensemble methods are conceived, they focus on improving the accuracy. That's why they are not used alone to tackle imbalanced data problem.
+The way most classifiers are conceived, they focus on improving the accuracy. That's why they are not used alone to tackle imbalanced data problem.
 
 ![image-20210724103611293](_assets/Notes/image-20210724103611293.png)
 
 There are many ways to go about it in the literature
 
 ![image-20210724125753626](_assets/Notes/image-20210724125753626.png)
+
+### Bagging
+
+**Under-bagging**: We copy the minority class data points and we bootstrap the majority class. Copying the minority dataset as is is not a must.
+
+In the case of decision trees, it yields Balanced Random Forest.
+
+![image-20210724135856240](_assets/Notes/image-20210724135856240.png)
+
+**Over-Bagging**: We bootstrap using both minority and majority class
+
+![image-20210724140520043](_assets/Notes/image-20210724140520043.png)
 
