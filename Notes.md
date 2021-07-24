@@ -225,3 +225,14 @@ In the case of decision trees, it yields Balanced Random Forest.
 
 **RAMO Boost**: equivalent of SMOTE Boost but using an ADASYN based method
 
+### Hybrid methods
+
+Hybrid methods are a mixture of bagging + boosting + data pre-processing. Adaboost is used on each bag. A layer of under/over sampling are used when creating the bags.
+
+![image-20210724152522892](_assets/Notes/image-20210724152522892.png)
+
+An example of such an algorithm is **EasyEnsemble**, where we use Random Under-sampling + Bagging of Adaboost
+
+**BalanceCascade** is another one where we use the same technique as EasyEnsemble but the correctly classified point are removed from the training set at each model creation in Adaboost.
+
+![image-20210724153001795](_assets/Notes/image-20210724153001795.png)
