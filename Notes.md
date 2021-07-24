@@ -213,3 +213,15 @@ In the case of decision trees, it yields Balanced Random Forest.
 
 ![image-20210724140520043](_assets/Notes/image-20210724140520043.png)
 
+### Boosting resampling
+
+**Random undersampling boost**
+
+![image-20210724145903525](_assets/Notes/image-20210724145903525.png)
+
+**SMOTE boost**
+
+![image-20210724150313351](_assets/Notes/image-20210724150313351.png)
+
+**RAMO Boost**: equivalent of SMOTE Boost but using an ADASYN based method
+
