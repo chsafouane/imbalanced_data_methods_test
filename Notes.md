@@ -236,3 +236,17 @@ An example of such an algorithm is **EasyEnsemble**, where we use Random Under-s
 **BalanceCascade** is another one where we use the same technique as EasyEnsemble but the correctly classified point are removed from the training set at each model creation in Adaboost.
 
 ![image-20210724153001795](_assets/Notes/image-20210724153001795.png)
+
+## Cost sensitive learning
+
+The idea is to assign a bigger cost for misclassifications that count the most for the usecase at hand. The questions are:
+
+- What are the types of cost?
+- How to obtain the cost (how to design the cost matrix)?
+
+### Types of cost
+
+In cost matrix, C(i,j) represents the cost of assigning an observation of class j to class i. The default cost-matrix assigns the same cost for all errors.
+
+![image-20210806155627204](/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806155627204.png)
+
