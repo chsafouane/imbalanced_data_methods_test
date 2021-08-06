@@ -244,9 +244,26 @@ The idea is to assign a bigger cost for misclassifications that count the most f
 - What are the types of cost?
 - How to obtain the cost (how to design the cost matrix)?
 
-### Types of cost
+### Determining cost
 
 In cost matrix, C(i,j) represents the cost of assigning an observation of class j to class i. The default cost-matrix assigns the same cost for all errors.
 
 ![image-20210806155627204](/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806155627204.png)
+
+- Low cost (or default cost) will not find the proper classification boundary => biased towards the majority
+- High cost might might impair generalization => biased the model towards the minority class
+
+<img src="/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806161038992.png" alt="image-20210806161038992" style="zoom:50%;" />
+
+### Conditional risk - Expected cost
+
+This is a way of embedding the cost of misclassification C(i, j) into the prediction P(j|x). The risk is used to determine the new prediction; the lower the risk, the better it is.
+
+![image-20210806164558097](/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806164558097.png)
+
+### MetaCost
+
+MetaCost is a procedure to make cost-insensitive algorithms cost-sensitive. The idea is to create a new dataset that incorporates the risk by relabelling the dataset so that the labels minimize the risk.
+
+<img src="/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806170815866.png" alt="image-20210806170815866" style="zoom:67%;" />
 
