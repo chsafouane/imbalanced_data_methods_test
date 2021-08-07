@@ -270,3 +270,12 @@ MetaCost is a procedure to make cost-insensitive algorithms cost-sensitive. The 
 ## Probability calibration
 
 A good introductory video to calibration and why it should be done: https://www.youtube.com/watch?v=A1NGGV3Z4m4 . Just watch the whole playlist (4 videos)!
+
+<hr></hr>
+
+When calibrating a model, one has to pay attention to the # of observations per interval cause it's hard to obtain the real positive fraction if we have few observations. The number of bins in the plot is also a problem, why not use an ECDF!
+
+When one changes the distribution of the classes (by doing some resampling) or changes the loss function, the relationship between the returned probabilities and the fraction of positive observations is distorted. To convey likelihood => calibrate probabilities.
+
+Calibration shouldn't be done using the training set. If the model overfits perfectly to the training set and orders the points perfectly, then the calibration on the training set is going to output a 0/1 function.
+
