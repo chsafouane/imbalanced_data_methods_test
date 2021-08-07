@@ -33,7 +33,7 @@ To make sure there aren't some handy-dandy techniques that I've missed, I've dec
 
 ## Notes
 
-I've been writing down notes while taking Soledad Galli course. The course is easy to follow along. What I didn't like about the course is that it feels like someone's throwing a bunch of methods at you but no thorough comparison is made between the methods. Nonetheless, the author applies different methods to a wide range of datasets but she doesn't share really share her insights.
+I've been writing down notes while taking Soledad Galli course. The course is easy to follow along. What I didn't like about the course is that it feels like someone's throwing a bunch of methods at you but no thorough comparison is made between the methods. If you haven't tackled the issue of imbalanced data before, this course might be really good for you. Otherwise, it might be a bit boring as was the case for me (but it has more to do with the fact that I knew many of the methods in the course. Nonetheless, the author applies different methods to a wide range of datasets.
 
 The notes are not a real summary of the course, if you don't know the concepts discussed in the course, you'll have a hard time understanding the different methods by simply going through the notes.
 
