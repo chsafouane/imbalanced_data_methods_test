@@ -267,3 +267,6 @@ MetaCost is a procedure to make cost-insensitive algorithms cost-sensitive. The 
 
 <img src="/home/chsafouane/.var/app/io.typora.Typora/config/Typora/typora-user-images/image-20210806170815866.png" alt="image-20210806170815866" style="zoom:67%;" />
 
+## Probability calibration
+
+A good introductory video to calibration and why it should be done: https://www.youtube.com/watch?v=A1NGGV3Z4m4 . Just watch the whole playlist (4 videos)!
